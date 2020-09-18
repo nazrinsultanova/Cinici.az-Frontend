@@ -1,0 +1,73 @@
+/*--------------REGISTRATION DONE---------*/
+
+.registration-done-container{
+    width: 100%;
+    background-color: #f8f8f8;
+    border-bottom: 0.1rem solid #DCDCDC;
+    padding-top: 15.5rem;
+    padding-bottom: 21.6rem;
+}
+
+.registration-done-content{
+    width: 76rem;
+    height: 25rem;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.registration-done-content h2{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 3.311rem;
+}
+
+.registration-done-content p{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #707070;
+    margin-top: 3.5rem;
+    margin-bottom: 0;
+}
+
+
+ .warning-p{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #707070;
+    text-align: center;
+    margin-top: 5rem;
+}
+ 
+.settings-btn{
+    width: 28rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    background: #272727;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 4.9rem;
+}

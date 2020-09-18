@@ -1,0 +1,185 @@
+ /*------------REGISTRATION-------------*/
+
+.registration-container {
+    width: 100%;
+    background-color: #f8f8f8;
+    border-bottom: 0.1rem solid #DCDCDC;
+    padding-top: 12.5rem;
+}
+
+.registration-content {
+    padding-top: 4rem;
+}
+
+.registration-box {
+    background-color: #fff;
+    width: 64rem;
+    margin: 0 auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    box-sizing: border-box;
+}
+
+.registration-box .title {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #272727;
+    text-align: center;
+    border-bottom: 0.1rem solid  rgba(201,201,201, 0.5);
+    padding-bottom: 1.5rem;
+    padding-top: 2.5rem;
+    margin: 0;
+}
+
+.registration-box label, .registration-box input {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #272727;
+}
+
+.registration-container .upper-side {
+    margin-top: 2rem;
+}
+
+.registration-container .upper-side input {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #272727;
+    width: 100%;
+    height: 4.5rem;
+    border: 0.1rem solid #DCDCDC;
+    box-sizing: border-box;
+    padding: 1.45rem 2rem;
+    margin-top: 0.6rem;
+    margin-bottom: 2rem;
+}
+
+.below-side input::placeholder, .upper-side input::placeholder {
+    color: #8D8D8D;
+}
+
+.registration-container .upper-side form input:last-child {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.4rem;
+}
+
+.below-side p {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin: 0;
+    margin-left: 1.5rem;
+}
+
+.registration-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #272727;
+    width: 28rem;
+    height: 5rem;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin: 0 auto;
+    margin-top: 3.6rem;
+    border: none;
+}
+
+.registration-container .upper-side {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.upper-side label {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(50% - 2rem);
+}
+
+.upper-side label input {
+    width: 100%;
+}
+
+.blue-text{
+    color: #1A9CFF;
+    text-decoration: underline;
+}
+
+.checkbox-container{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container input{
+    margin: 0;
+}
+ 
+/*----------WARNING-BOX--------*/
+
+.warning-box{
+    width: 49.5rem;
+    height: 6.1rem;
+    border: 0.1rem solid #E4013A;
+    margin: 1.5rem auto;
+    box-sizing: border-box;
+    padding-left: 2.255rem;
+    padding-top: 1.8rem;
+    padding-bottom: 1.9rem; 
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 63px;
+    visibility: hidden;
+    display: flex;
+}
+
+.warning-box img:last-child{
+    cursor: pointer;
+}
+
+.warning-box p{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #707070;
+    margin-right: 2rem;
+}
+
+.icon-circle{
+    background: #E4013A;
+    width: 2.557rem;
+    height: 2.4rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.718rem;
+}
+
+.pink-text::placeholder{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #E4013A;
+    letter-spacing: normal !important;
+}

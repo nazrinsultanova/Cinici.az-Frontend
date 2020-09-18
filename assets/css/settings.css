@@ -1,0 +1,98 @@
+/*----------------SETTINGS------------*/
+
+.settings-content-right{
+    background-color: #fff;
+    width: 86rem;
+    padding: 4rem;
+    box-sizing: border-box;
+    margin-bottom: 14.8rem;
+}
+
+.save{
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.028rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #272727;
+    width: 22rem;
+    height: 5rem;
+    text-decoration: none;
+    margin-top: 4rem;
+    border: none;
+    cursor: pointer;
+}
+
+.settings-content p{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin: 0;
+}
+
+.settings-content form{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #272727;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.9rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.settings-content form label{
+     margin-top: 2rem;
+     display: flex;
+     flex-wrap: wrap;
+     width: calc(50% - 1rem);
+}
+
+.settings-content form input, select{
+    width: 38rem;
+    height: 4.5rem;
+    box-sizing: border-box;
+    padding-left: 2rem;
+    border: 0.1rem solid #DCDCDC;
+    margin-top: 0.7rem;
+    margin-bottom: 0rem;
+    background-color: #fff;
+}
+
+::placeholder {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #A5A5A5;
+}
+
+.arrow-down{
+    position: absolute;
+    right: 20;
+    bottom: 2rem;
+    right: 2rem;
+    top: 4.5rem;
+    cursor: pointer;
+}
+
+form label:nth-child(2){
+    position: relative;
+}
+
+.space{
+    display: block;
+    height: 0rem;
+    width: 5rem;
+}

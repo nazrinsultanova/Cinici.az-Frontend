@@ -1,0 +1,59 @@
+ /*-------------------BONUS------------*/ 
+
+.bonus-content{
+    background-color: #fff;
+    width: 86rem;
+    box-sizing: border-box;
+    padding: 4rem;
+}
+
+.above-p{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #272727;
+    margin: 0;
+}
+
+.bonus-content h2{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #272727;
+}
+
+.below-p{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #272727;
+    background: rgb(53,204,98, 0.08) ;
+    width: 78rem;
+    height: 4.9rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+    box-sizing: border-box;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.bonus-content-middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E7E7E7;
+    width: 78rem;
+    height: 20rem;
+    margin-top: 1.9rem
+}
+
+  .bonus-content-right{
+     margin-bottom: 30.7rem;
+ }

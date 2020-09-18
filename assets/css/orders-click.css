@@ -1,0 +1,259 @@
+
+.orders-click-content{
+    background-color: #fff;
+    width: 86rem;
+    
+    box-sizing: border-box;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2.5rem;
+    margin-bottom: 9.7rem;
+}
+
+.back p{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #272727;
+    margin: 0;
+}
+
+.back img{
+    margin-right: 1.05rem;
+}
+
+.back{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.orders-info{
+    background: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2.3rem;
+    padding-top: 1.1rem;
+    padding-bottom: 1.3rem;
+}
+
+.orders-info p{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #272727;
+    margin: 0;
+}
+
+.orders-info p:last-child{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
+.products-info{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid #E7E7E7;;
+}
+
+.products-info p{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #272727;
+}
+
+.img-div{
+    width: 8rem;
+    height: 10rem;
+}
+
+.img-div img{
+    width: 100%;
+    height: 100%;
+}
+
+.main-table th{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
+.flex-td p{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #272727;
+}
+
+.main-table{
+   width: 100%;
+   margin-top: 2rem;
+   border-collapse: collapse;
+}
+
+.main-table th, tr {
+    text-align: left;
+}
+
+.main-table thead tr th{
+    padding-bottom: 1.1rem;
+}
+
+.main-table thead tr th:last-child{
+    text-align: right;
+}
+
+.main-table tbody tr td:first-child{
+    display: flex;
+    align-items: center;
+}
+
+.main-table tbody tr td:first-child img{
+    width: 8rem;
+    margin-right: 2rem;
+}
+
+.main-table tbody tr td:nth-child(2){
+    padding: 0rem 2rem;
+    width: 10%;
+}
+
+.main-table tbody tr td:last-child{
+    text-align: right;
+    width: 40%;
+}
+
+.main-table tbody tr td div p{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
+.main-table tbody tr td div p:nth-child(2), tbody tr td div p:last-child{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.028rem;
+    color: #272727;
+}
+
+.main-table tbody tr td{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.main-table tr{
+    border-bottom: 0.1rem solid #E7E7E7;
+}
+
+.orders-content-click-bottom{
+    margin-top: 3rem;
+}
+
+.orders-content-click-bottom .address{
+   width: 30rem;
+   height: 11rem;
+   border: 0.1rem solid #E7E7E7;
+   box-sizing: border-box;
+   padding-top: 2.2rem;
+   padding-left: 2.5rem;
+   padding-bottom: 1.8rem;
+   padding-right: 2.5rem;
+}
+
+.orders-content-click-bottom .address p{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #272727;
+    margin: 0;
+}
+
+.orders-content-click-bottom .address p:last-child{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #272727;
+    margin-top: 0.9rem;
+}
+
+.calculation{
+    width: 26.4rem;
+    border-collapse: collapse;
+}
+
+.calculation tbody tr td{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #272727;
+    padding-bottom: 1.3rem;
+} 
+ 
+.align-right{
+    text-align: right;
+}
+
+.calculation tr:nth-child(3){
+    border-bottom: 0.1rem solid #E7E7E7;
+}
+
+.calculation tr:last-child td{ 
+    padding-top: 1.2rem;
+}
+ 
+
+.calculation tbody tr:last-child td:last-child{
+    color: #E4013A;
+}
+
+.line{
+    text-decoration: line-through;
+}
+
+.pink{
+    color: #E4013A;
+    margin-left: 5px;
+}
+
+.margin-div{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.mobile-orders-container{
+    display: none;
+}
